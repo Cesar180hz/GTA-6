@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>GTA 6</title>
+    <style>
+        /* Estilo do círculo no final da página */
+        .circle {
+            margin: 50px auto;
+            width: 60px; /* Círculo menor inicialmente */
+            height: 60px; /* Círculo menor inicialmente */
+            background-color: purple; /* Cor do círculo: roxo */
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: transparent; /* Texto invisível inicialmente */
+            font-size: 14px; /* Tamanho do texto ajustado para o círculo menor */
+            font-family: 'Chakra Petch', sans-serif;
+            cursor: pointer;
+            transition: all 0.3s ease; /* Transição suave para quando o mouse passar */
+        }
+
+        /* Efeito ao passar o mouse */
+        .circle:hover {
+            width: 70px;  /* Aumenta levemente o tamanho do círculo */
+            height: 70px; /* Aumenta levemente o tamanho do círculo */
+            color: white; /* Texto em branco ao passar o mouse */
+        }
+
+        /* Centralizando o círculo horizontalmente no final da página */
+        .circle-container {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="topo"></div>
+    <header><span class="Corinthians">ROCKSTAR</span><span class="B">/</span><span class="flix">ROCKSTAR</span></header>
+    <section class="chamada">       
+        <div class="chamada-texto">
+            <h1>GTA 6 PROMETE SER O THE BEST?</h1>
+            <p class="p">#<span class="vai">GTA</span><span class=C>VI</span></p>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://youtu.be/ba5i1mZtYpM?si=WxR0nNmJm8fu8z3l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>  
+    </section>
+    <br>
+    <section class="categoria">
+        <h2><span class="melhores">Jogos e Mais</span>
+        <span class="momentos">Jogos e Mais</span></h2>
+        <div class="categoria-videos">
+            <a href="https://youtu.be/8ZjncW3lEKA?si=ARPd4Ww5K3Ryi1KN" target="_blank">
+                <img src="https://i.ytimg.com/vi/wt_TxBs97WA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSjYp5uUWb4OS3MS3JbSJ0oIy0yw"/>
+            </a>
+            <a href="https://youtu.be/-UG7cYbdxD8?si=oDcvaF4gQdNZSheM" target="_blank">
+                <img src="https://i.ytimg.com/vi/-UG7cYbdxD8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjA0dJLAj9wcXzu3nuljaWJOh2cw" />
+            </a>
+            <a href="https://youtu.be/8ZjncW3lEKA?si=LenUBXvTIJK6UkKi" target="_blank">
+                <img src="https://i.ytimg.com/vi/8ZjncW3lEKA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDB4-7jhjvgRHnS0TRZU4YLDvQJoQ" />
+            </a>
+            <a href="https://youtu.be/V_dNG16VQC4?si=NC3G0ZwnerjGKTJY" target="_blank">
+                <img src="https://i.ytimg.com/vi/V_dNG16VQC4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHW8UdZIc4S9PG19NWGWoIyWmjJA" />
+            </a>
+            <a href="https://youtu.be/aW9352Ir_ek?si=hBZBklaueGTa3S_n" target="_blank">
+                <img src="https://i.ytimg.com/vi/aW9352Ir_ek/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB_zVWpTeWKOaLKkv6Po0Met9MvCw" />
+            </a>      
+        </div>
+    </section>
+
+    <!-- Container para o círculo no final da página -->
+    <div class="circle-container">
+        <div class="circle" onclick="scrollToTop()">PRA CIMA!</div>
+    </div>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
+
